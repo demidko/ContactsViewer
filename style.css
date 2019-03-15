@@ -1,0 +1,17 @@
+input.find {
+    color: darkviolet;
+    background-color: whitesmoke;
+    font-family: Consolas;
+    font-size: 144%;
+    width: 75%;
+    border: none;
+    height: 7%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+input.find::placeholder {
+    font-style: oblique;
+    opacity: 0.20;
+}
