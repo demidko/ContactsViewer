@@ -1,6 +1,9 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
-    "lib": [ "es7", "dom" ]
-  },
-  "compileOnSave": true
+    "lib": [ "es2018", "dom" ],
+    "module": "esnext",
+    "strict": true,
+    "target": "es5"
+  }
 }

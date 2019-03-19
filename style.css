@@ -10,7 +10,6 @@
     opacity: 0.3;
     font-family: Consolas;
     background-color: whitesmoke;
-
     display: block;
     margin: 0 auto;
 }
@@ -27,46 +26,27 @@
         border: none;
     }
 
-.error {
-    padding: 5%;
-    color: dimgray;
-    width: 65%;
-    font-family: Consolas;
-    font-size: 144%;
-    /*text-align:center;*/
-    display: block;
-    margin: 1% auto;
-    background-color: whitesmoke;
-}
-
-.find {
+.search-style {
     color: dimgray;
     font-family: Consolas;
     font-size: 144%;
-    width: 75%;
+    width: 100%;
     height: 10%;
     display: block;
     text-align: center;
-    margin: 0 auto;
-    border: 0px;
+    padding: 1%;
+    /*margin: 0 auto;*/
+    border: none;
+    background-color: whitesmoke;
 }
-
-    .find::placeholder {
+    /*Сделать поддержку в других браузерах*/
+    .search-style::placeholder {
+        text-align: right;
+        font-size: 175%;
         color: dimgray;
-        opacity: 0.3;
-        background-color: whitesmoke;
     }
 
-    .find:focus {
+    .search-style:focus {
         border: solid 2px lightgray;
         color: mediumblue;
     }
-
-progress {
-    display: block;
-    margin: 2% auto;
-    width: 75%;
-    height: 10%;
-    background-color: mediumblue;
-    border: none;
-}
